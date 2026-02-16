@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>Admin Panel</h2>
+    <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="student.html">Students</a></li>
+        <li><a href="department.html">Departments</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="application.html">Applications</a></li>
+        <li><a href="#" class="logout">Logout</a></li>
+    </ul>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+    <h1>Dashboard Overview</h1>
+
+    <!-- Statistics Cards -->
+    <div class="cards">
+
+        <div class="card blue">
+            <h3>Total Students</h3>
+            <p>120</p>
+        </div>
+
+        <div class="card green">
+            <h3>Approved Applications</h3>
+            <p>80</p>
+        </div>
+
+        <div class="card orange">
+            <h3>Pending Applications</h3>
+            <p>30</p>
+        </div>
+
+        <div class="card red">
+            <h3>Rejected Applications</h3>
+            <p>10</p>
+        </div>
+
+    </div>
+
+    <!-- Recent Applications Table -->
+    <h2>Recent Applications</h2>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>BSc Computer Science</td>
+            <td><span class="status approved">Approved</span></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Mary Smith</td>
+            <td>BBA Marketing</td>
+            <td><span class="status pending">Pending</span></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>James Brown</td>
+            <td>Electrical Engineering</td>
+            <td><span class="status rejected">Rejected</span></td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>
